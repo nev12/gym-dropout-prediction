@@ -54,7 +54,7 @@ SQL was used to create reproducible, model ready feature tables from the validat
 
 This includes data loading, session cleaning, user level aggregation and churn labeling
 
-**Folder:** [SQL pipeline/](SQL pipeline/)
+**Folder:** [SQL/](SQL/)
 
 ### 5. Exploratory Analysis & Modeling
 
