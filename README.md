@@ -22,7 +22,7 @@ The original dataset was audited to assess suitability for churn modeling.
 
 Exploration revealed that check-in timestamps were randomly distributed and did not encode meaningful churn behaviour, making direct churn prediction invalid.
 
-Notebook: 00_data_sanity_check.ipynb
+**Notebook:** [00_data_sanity_check.ipynb](notebooks/00_data_sanity_check.ipynb)
 
 ### 2. Synthetic Data Generation
 
@@ -34,7 +34,7 @@ The generator simulates somewhat realistic gym engagement lynamics, including:
   - probabilistic churn events
   - constrained gym and workout diversity
 
-Notebook: 01_data_generation.ipynb
+**Notebook:** [01_data_generation.ipynb](notebooks/01_data_generation.ipynb)
 
 ### 3. Data Validation
 
@@ -46,7 +46,7 @@ Validation check incuded:
   - temporal gaps
   - churn rate
 
-Notebook: 02_data_validation.ipynb
+**Notebook:** [02_data_validation.ipynb](Notebooks/02_data_validation.ipynb)
 
 ### 4. Feature Engineering (SQL)
 
@@ -54,7 +54,7 @@ SQL was used to create reproducible, model ready feature tables from the validat
 
 This includes data loading, session cleaning, user level aggregation and churn labeling
 
-Folder: SQL pipeline/
+**Folder:** [SQL pipeline/](SQL pipeline/)
 
 ### 5. Exploratory Analysis & Modeling
 
@@ -62,7 +62,7 @@ Exploratory analysis focused on evaluating which features were suitable for mode
 
 A baseline logistic regression model was trained using historical engagement features only. Recency-related variables were excluded to avoid target leakage, since churn is defined based on inactivity.
 
-Notebook: 03_eda_modeling.ipynb
+**Notebook:** [03_eda_modeling.ipynb](Notebooks/03_eda_modeling.ipynb)
 
 ## Churn Definiton
 
