@@ -1,4 +1,4 @@
-# GYM PREDICTION
+# GYM MEMBER DROPOUT PREDICTION
 
 ## Project Overview
 
